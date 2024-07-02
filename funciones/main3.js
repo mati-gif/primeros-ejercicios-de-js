@@ -288,6 +288,9 @@ console.log(diaChequeado);
 
 // console.log(informacionPersonal());
 
+
+
+//------chequear pero creo que no va-----//
 // function informacionPersonal() {
 //   let ingresaNombre = prompt("ingresa tu nombre");
 //   if (ingresaNombre === "") {

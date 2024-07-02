@@ -9,7 +9,7 @@ if (numero1 > numero2) {
     console.log(numero2);
 }
 
-//---ejercicio B-----//
+//---ejercicio 2-----//
 
 let num1 = 6;
 let num2 = 7;
@@ -22,7 +22,7 @@ if (num1 > num2) {
     console.log("Los numero son iguales");
 }
 
-//---ejercicio C-----//
+//---ejercicio 3-----//
 
 let number1 = 8;
 let number2 = 9;
@@ -33,7 +33,7 @@ if (number1 == number2) {
     console.log("los numeros son distintos");
 }
 
-//----ejercicio D-----//
+//----ejercicio 4-----//
 
 let fecha1 = "2018-9-2";
 let fecha2 = "2023-7-5";
@@ -46,7 +46,7 @@ if (fecha1 > fecha2) {
     console.log("Las fechas son iguales");
 }
 
-//----ejercicio E-----//
+//----ejercicio 5-----//
 
 let fecha3 = "2028-9-2";
 let fecha4 = "2028-7-5";
@@ -63,7 +63,7 @@ if (fecha3 > fecha4) {
 
 
 
-//-----EJERCICIO F-----//
+//-----EJERCICIO 6-----//
 let numeroA = 5;
 
 let numeroB = 7;
@@ -96,7 +96,7 @@ if (numeroD < numeroE && numeroD < numeroF) {
 
 //------EJERCICIOS DE CONDICIONALES (NIVEL MEDIO)-----//
 
-//-----EJERCICIO A-----//
+//-----EJERCICIO 1-----//
 
 // let color = prompt("ingrese un color(rojo,verde,azul)");
 
@@ -115,7 +115,7 @@ if (numeroD < numeroE && numeroD < numeroF) {
 
 // }
 
-//-----EJERCICIO B-----//
+//-----EJERCICIO 2-----//
 
 // let valor1 = parseInt(prompt("ingrese el valor 1"));//
 
@@ -156,7 +156,7 @@ if (numeroD < numeroE && numeroD < numeroF) {
 //     console.log("algun numero no esta dentro del rango");
 // }
 
-//-----EJERCICIO C-----//
+//-----EJERCICIO 3-----//
 
 const persona1 = {
     nombre: "Jose",
@@ -186,7 +186,7 @@ if (persona1.edad > persona2.edad) {
     console.log(`${persona1.nombre} y ${persona2.nombre} soy iguales`);
 }
 
-//-----EJERCICIO D-----//
+//-----EJERCICIO 4-----//
 // let nombre = prompt("ingresa tu nombre");
 // let edad = prompt("ingresa tu edad");
 // let altura = prompt("ingresa tu altura");
@@ -204,7 +204,7 @@ if (persona1.edad > persona2.edad) {
 //     console.log("no estas calificado")
 // }
 
-//-----EJERCICIO E-----//
+//-----EJERCICIO 5-----//
 
 // let edad = prompt("ingresa tu edad");
 
@@ -223,7 +223,7 @@ if (persona1.edad > persona2.edad) {
 //     alert("es realmente viejo")
 // }
 
-//-----EJERCICIO F-----//
+//-----EJERCICIO 6-----//
 
 let numero = parseInt(prompt("ingrese numeros entre 1 y 3"));
 let numberA = 1;
@@ -277,7 +277,7 @@ switch (numero) {
 
 //------EJERCICIOS DE CONDICIONALES (NIVEL ALTO)-----//
 
-//-----EJERCICIO A-----//
+//-----EJERCICIO 1-----//
 
 let nombreCliente = prompt("Ingrese su nombre:");
 let paseCliente = prompt("Ingrese su pase (vip o normal):").toLowerCase();
