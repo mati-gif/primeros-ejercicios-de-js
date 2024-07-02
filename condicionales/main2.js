@@ -87,11 +87,11 @@ let numeroE = 7;
 let numeroF = 9;
 
 if (numeroD < numeroE && numeroD < numeroF) {
-    console.log(`El número ${numeroD} es el más grande`);
-} else if (numeroE > numeroD && numeroE > numeroF) {
-    console.log(`El número ${numeroE} es el más grande`);
+    console.log(`El número ${numeroD} es el menor`);
+} else if (numeroE < numeroD && numeroE < numeroF) {
+    console.log(`El número ${numeroE} es el menor`);
 } else {
-    console.log(`El número ${numeroF} es el más grande`);
+    console.log(`El número ${numeroF} es el menor`);
 }
 
 //------EJERCICIOS DE CONDICIONALES (NIVEL MEDIO)-----//
