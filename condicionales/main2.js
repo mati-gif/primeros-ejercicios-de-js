@@ -161,13 +161,13 @@ if (numeroD < numeroE && numeroD < numeroF) {
 const persona1 = {
     nombre: "Jose",
     edad: 10,
-    altura: 1.8,
+    altura: 1.80,
 };
 
 const persona2 = {
     nombre: "maria",
     edad: 15,
-    altura: 1.6,
+    altura: 1.60,
 };
 
 if (persona1.altura > persona2.altura) {
@@ -230,6 +230,9 @@ let numberA = 1;
 let numberB = 2;
 let numberC = 3;
 let resultado;
+
+
+//chequear pero creo que no va//
 // if(numero >= 1 && numero <= 1 ){
 //     alert(`el numero ingresado es &{numero}`)
 // } else if (numero >= 2 && numero <= 2){
@@ -250,8 +253,8 @@ if (numero == 1) {
     resultado = numberB * 2;
     alert(`El doble del número ingresado es ${resultado}`);
 } else {
-    resultado = numberC * 3;
-    alert("el triple del numero ingresado es " + resultado * 3);
+    resultado = numberC ** 3;
+    alert(`el triple del numero ingresado es  + ${resultado}`);
 }
 //otra forma:
 switch (numero) {

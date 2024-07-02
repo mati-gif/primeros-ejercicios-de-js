@@ -198,6 +198,8 @@ console.log(ingresoAnual(25000));
 function verificarDia(dia) {
   let mensaje;
 
+  //chequear pero creo que esta mal//
+
   // switch(dia){
   //     case 1:
   //     case 2:
@@ -376,7 +378,7 @@ console.log(diaChequeado);
 //otra forma:
 
 function saludo(frase){
-    return `hola mi nombre es ${frase}`
+    return `hola mi nombre es ${frase}`;
 }
 
 function calcularAge(añonacimiento,añoactual){
@@ -396,11 +398,11 @@ function presentarse(){
 
     if (edadPersona !== edadPersona2){
         let calcularAgeFinal = calcularAge(edadPersona2,edadPersona);
-        alert(calcularAgeFinal)
+        alert(calcularAgeFinal);
 
     }
     
 
 }
 
-presentarse()
+presentarse();
